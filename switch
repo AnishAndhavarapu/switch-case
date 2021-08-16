@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{
+	int n=0;
+	printf("the menu \n 1.pizza,Rs.239 \n 2.burger,Rs.129 \n 3.pasta,Rs.179 \n 4.frenchfries,Rs.99 \n 5.sandwich,Rs.149 ");
+	scanf("%d",&n);
+	switch(n)
+	{
+	
+	case 1:
+	printf("pizaa Rs.239");
+	break;
+	case 2:
+	printf("burger Rs.129");
+	break;
+	case 3:
+	printf("pasta Rs.179");
+	break;
+	case 4:
+	printf("frenchfries Rs.99");
+	break;
+	case 5:
+	printf("sandwich Rs.149");
+	break;
+	deafualt:printf("invalid choice");
+		}
+		return 0;
+}
